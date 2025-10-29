@@ -1,22 +1,27 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Download, Target, Users, BarChart3 } from "lucide-react";
+import { Download, Compass, Users, TrendingUp, Zap } from "lucide-react";
 
 const skillCategories = [
   {
-    icon: Target,
-    category: "Strategy & Insight",
-    description: "Turning ideas into clear, actionable plans — grounded in curiosity, experimentation, and understanding what people truly need."
+    icon: Compass,
+    category: "Strategy & Vision",
+    description: "Turning ideas into clarity. I've written PRDs, built roadmaps, and translated ambiguous goals into clear priorities — connecting user needs with business outcomes."
   },
   {
     icon: Users,
-    category: "Design & Experience",
-    description: "Crafting intuitive, delightful experiences that feel simple, purposeful, and focused on real human goals."
+    category: "Customer Insight & Discovery",
+    description: "Grounded in empathy and data. I've run surveys, synthesized results, and tested prototypes to uncover what people really need and validate before building."
   },
   {
-    icon: BarChart3,
-    category: "Data & Systems",
-    description: "Finding the story in the numbers — using data to guide direction and automation to bring ideas to life."
+    icon: TrendingUp,
+    category: "Market & Growth Thinking",
+    description: "Obsessed with signals over noise. I analyze markets, spot whitespace, and use insights to shape positioning, pricing, and go-to-market direction."
+  },
+  {
+    icon: Zap,
+    category: "Execution & Collaboration",
+    description: "From concept to launch. I love working with cross-functional teammates to iterate fast, balance user feedback with constraints, and deliver real impact — not just outputs."
   }
 ];
 
@@ -43,7 +48,7 @@ export const Skills = () => {
         </div>
 
         {/* Skill Categories */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
           {skillCategories.map(({ icon: Icon, category, description }) => (
             <Card key={category} className="border-border hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
               <CardContent className="p-6">
