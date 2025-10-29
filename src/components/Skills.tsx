@@ -45,7 +45,7 @@ export const Skills = () => {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Skills &{" "}
-            <span className="bg-[var(--gradient-primary)] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
               Experience
             </span>
           </h2>

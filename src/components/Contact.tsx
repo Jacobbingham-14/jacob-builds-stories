@@ -10,7 +10,7 @@ export const Contact = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               Let's{" "}
-              <span className="bg-[var(--gradient-primary)] bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
                 Connect
               </span>
             </h2>
