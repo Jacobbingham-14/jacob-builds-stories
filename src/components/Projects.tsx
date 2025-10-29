@@ -2,7 +2,7 @@ import { ProjectCard } from "./ProjectCard";
 
 const projects = [
   {
-    title: "Fever Dreams",
+    title: "AI Image Party Game",
     description: "AI-powered dream interpretation app that helps users understand their subconscious through personalized insights and pattern recognition.",
     skills: ["Product Strategy", "AI/ML", "UX Design", "User Research"]
   },
