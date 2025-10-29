@@ -8,12 +8,6 @@ const projects = [
     skills: ["Product Strategy", "UX Design", "AI/ML Integration", "User Engagement"]
   },
   {
-    title: "Squak",
-    description: "An outdoor apparel company redefining comfort and adventure through sustainable design. As Market Research & Product Intern, I helped shape new product lines, analyze pricing, and optimize Amazon listings.",
-    impact: "Sourced 20+ suppliers, refined product copy, and contributed to the brand's online relaunch.",
-    skills: ["Market Research", "Product Development", "E-commerce Strategy", "Communication"]
-  },
-  {
     title: "Side Projects",
     description: "A collection of creative experiments — from a 1-on-1 challenge app to custom automation agents built with n8n. These projects keep me learning, building, and experimenting with how technology can empower people.",
     skills: ["Prototyping", "Automation", "Creativity", "Rapid Experimentation"]
