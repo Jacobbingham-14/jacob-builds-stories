@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Download, Award, Target, Users, Lightbulb, BarChart3 } from "lucide-react";
+import { Download, Target, Users, BarChart3 } from "lucide-react";
 
 const skillCategories = [
   {
@@ -18,13 +18,6 @@ const skillCategories = [
     category: "Data & Systems",
     description: "Finding the story in the numbers — using data to guide direction and automation to bring ideas to life."
   }
-];
-
-const highlights = [
-  { icon: Award, text: "Eagle Scout" },
-  { icon: Users, text: "BYU Strategy Club Leader" },
-  { icon: Lightbulb, text: "Startup Weekend Winner" },
-  { icon: Target, text: "Product Management Certification" }
 ];
 
 export const Skills = () => {
@@ -50,7 +43,7 @@ export const Skills = () => {
         </div>
 
         {/* Skill Categories */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {skillCategories.map(({ icon: Icon, category, description }) => (
             <Card key={category} className="border-border hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
               <CardContent className="p-6">
@@ -66,23 +59,6 @@ export const Skills = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        {/* Highlights */}
-        <div className="max-w-4xl mx-auto">
-          <h3 className="text-2xl font-semibold text-center mb-8">Recognition & Leadership</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {highlights.map(({ icon: Icon, text }) => (
-              <Card key={text} className="border-border">
-                <CardContent className="p-4 flex flex-col items-center text-center gap-3">
-                  <div className="p-3 rounded-full bg-primary/10">
-                    <Icon className="w-6 h-6 text-primary" />
-                  </div>
-                  <p className="text-sm font-medium">{text}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
         </div>
       </div>
     </section>
