@@ -33,7 +33,7 @@ export const ProjectCard = ({ title, description, skills, image }: ProjectCardPr
         <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">
           {title}
         </h3>
-        <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
+        <p className="text-muted-foreground text-sm mb-4">
           {description}
         </p>
         <div className="flex flex-wrap gap-2">
