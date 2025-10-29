@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
 
@@ -48,7 +47,6 @@ export const Navigation = () => {
             >
               Contact
             </button>
-            <Button size="sm" variant="hero">Resume</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -88,7 +86,6 @@ export const Navigation = () => {
             >
               Contact
             </button>
-            <Button size="sm" variant="hero" className="w-full">Resume</Button>
           </div>
         )}
       </div>
