@@ -23,25 +23,55 @@ export const About = () => {
           </div>
 
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
-            <p>
-              I'm endlessly curious about how things work — and how to make them better. Whether it's a product, a system, or a person, I love taking something raw and shaping it into something meaningful. That's what drives me as a builder and as a human.
-            </p>
+            <div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">Who I Am</h3>
+              <p>
+                I'm endlessly curious about how things work — and how to make them better. Whether it's a product, a system, or a person, I love taking something raw and shaping it into something meaningful. That's what drives me as a builder and as a human.
+              </p>
+            </div>
 
-            <p>
-              I study Strategic Management at BYU, but my real education has come from doing — starting projects, learning from failure, and chasing the spark of new ideas. For the past year, I've interned at Squak, an outdoor apparel company, where I've helped shape products, analyze markets, and turn ideas into reality.
-            </p>
+            <div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">What I'm Learning</h3>
+              <p>
+                I study Strategic Management at BYU, but my real education has come from doing — starting projects, learning from failure, and chasing the spark of new ideas.
+              </p>
+            </div>
 
-            <p>
-              Outside of work, I spend hours every week exploring side projects — building a 1-on-1 challenge app, automating workflows with n8n, or experimenting with new AI tools just to see what's possible.
-            </p>
+            <div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">Where I've Been</h3>
+              <p>
+                For the past year, I've interned at Squak, an outdoor apparel company, where I've helped shape products, analyze markets, and bring ideas to life. That experience taught me how creativity, data, and execution come together to make something real.
+              </p>
+            </div>
 
-            <p>
-              I love creating things that bring people together, push me outside my comfort zone, or make life a little more playful. When I'm not building, I'm usually outside — running trails, hiking mountains, or finding stories worth telling.
-            </p>
+            <div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">What I'm Building</h3>
+              <p className="mb-3">
+                Outside of work, I spend hours every week building ideas that excite me.
+              </p>
+              <p className="mb-3">
+                Most of my free time goes into Fever Dreams, an AI image-generation party game that turns imagination into something you can share and laugh about with friends.
+              </p>
+              <p className="mb-3">
+                I also love tinkering with personal side projects — like a 1-on-1 challenge app that helps friends push each other toward growth, or building custom automation agents with n8n just to see how far I can stretch an idea.
+              </p>
+              <p>
+                For me, building isn't a hobby — it's how I think, learn, and connect with the world.
+              </p>
+            </div>
 
-            <p className="text-foreground font-medium">
-              At my core, I'm a builder who believes in people, progress, and the quiet joy of creating something from nothing.
-            </p>
+            <div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">What Drives Me</h3>
+              <p className="mb-3">
+                I love creating things that inspire people — helping them see their potential, unlock their creativity, and feel more alive.
+              </p>
+              <p className="mb-3">
+                Whether it's a product, a conversation, or a side project, I'm driven by the idea that small sparks can change how people see themselves.
+              </p>
+              <p className="text-foreground font-medium">
+                I believe progress isn't just about achievement — it's about creation, connection, and the quiet moments where something new begins to take shape.
+              </p>
+            </div>
           </div>
         </div>
       </div>

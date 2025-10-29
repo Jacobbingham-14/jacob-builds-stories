@@ -2,34 +2,21 @@ import { ProjectCard } from "./ProjectCard";
 
 const projects = [
   {
-    title: "AI Image Party Game",
-    description: "AI-powered dream interpretation app that helps users understand their subconscious through personalized insights and pattern recognition.",
-    skills: ["Product Strategy", "AI/ML", "UX Design", "User Research"]
-  },
-  {
-    title: "Adminify",
-    description: "Streamlined administrative platform reducing operational overhead for small teams through intelligent automation and workflow optimization.",
-    skills: ["Product Management", "SaaS", "Analytics", "Automation"]
+    title: "Fever Dreams",
+    description: "An AI image-generation party game that makes creativity social. I built it to explore how technology can amplify imagination and bring people together.",
+    role: "Concept, UX flow, PRD creation, AI model research and integration planning.",
+    skills: ["Product Strategy", "UX Design", "AI/ML Integration", "User Engagement"]
   },
   {
     title: "Squak",
-    description: "Social communication platform fostering authentic connections through voice-first interactions and community-driven features.",
-    skills: ["Community Building", "Mobile UX", "Growth Strategy", "A/B Testing"]
+    description: "An outdoor apparel company redefining comfort and adventure through sustainable design. As Market Research & Product Intern, I helped shape new product lines, analyze pricing, and optimize Amazon listings.",
+    impact: "Sourced 20+ suppliers, refined product copy, and contributed to the brand's online relaunch.",
+    skills: ["Market Research", "Product Development", "E-commerce Strategy", "Communication"]
   },
   {
-    title: "Recall AI",
-    description: "Memory enhancement tool leveraging spaced repetition and AI to help users retain and retrieve important information efficiently.",
-    skills: ["AI Integration", "Learning Science", "Data Analysis", "MVP Development"]
-  },
-  {
-    title: "Focus Challenge",
-    description: "Gamified productivity app that helps users build sustainable focus habits through behavioral psychology and social accountability.",
-    skills: ["Behavioral Design", "Gamification", "User Engagement", "Product Analytics"]
-  },
-  {
-    title: "Innovation Lab Projects",
-    description: "Cross-functional initiatives exploring emerging technologies and validating new product opportunities through rapid experimentation.",
-    skills: ["Innovation Strategy", "Prototyping", "Market Research", "Stakeholder Management"]
+    title: "Side Projects",
+    description: "A collection of creative experiments — from a 1-on-1 challenge app to custom automation agents built with n8n. These projects keep me learning, building, and experimenting with how technology can empower people.",
+    skills: ["Prototyping", "Automation", "Creativity", "Rapid Experimentation"]
   }
 ];
 
@@ -49,7 +36,7 @@ export const Projects = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {projects.map((project) => (
             <ProjectCard key={project.title} {...project} />
           ))}

@@ -37,7 +37,7 @@ export const Hero = () => {
 
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             I'm Jacob Bingham, a product manager who believes creation is how we connect with others and make a difference. 
-            I build products that blend strategy, creativity, and empathy.
+            I build products that blend strategy, creativity, and heart.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
@@ -53,7 +53,7 @@ export const Hero = () => {
           {/* Social Links */}
           <div className="flex items-center justify-center gap-6">
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/jacobbingham"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-card hover:bg-secondary transition-all duration-300 shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-elegant)]"
@@ -62,7 +62,7 @@ export const Hero = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="mailto:jacob@example.com"
+              href="mailto:jacobbingham14@gmail.com"
               className="p-3 rounded-lg bg-card hover:bg-secondary transition-all duration-300 shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-elegant)]"
               aria-label="Email"
             >

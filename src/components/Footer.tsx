@@ -4,7 +4,7 @@ export const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Jacob Bingham. Built with care and creativity.
+            © {new Date().getFullYear()} Jacob Bingham. Built with care and curiosity.
           </p>
           <p className="text-sm text-muted-foreground">
             "I believe creation is how we connect with God and make our mark on the world."

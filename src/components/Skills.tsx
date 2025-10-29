@@ -1,33 +1,22 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Download, Award, Target, Users, Lightbulb, BarChart3, Code } from "lucide-react";
+import { Download, Award, Target, Users, Lightbulb, BarChart3 } from "lucide-react";
 
 const skillCategories = [
   {
     icon: Target,
-    category: "Product Strategy",
-    skills: ["Product Vision", "Roadmapping", "Competitive Analysis", "Go-to-Market Strategy"]
+    category: "Strategy & Insight",
+    description: "Turning ideas into clear, actionable plans — grounded in curiosity, experimentation, and understanding what people truly need."
   },
   {
     icon: Users,
-    category: "User Experience",
-    skills: ["User Research", "Design Thinking", "Wireframing", "Usability Testing"]
+    category: "Design & Experience",
+    description: "Crafting intuitive, delightful experiences that feel simple, purposeful, and focused on real human goals."
   },
   {
     icon: BarChart3,
-    category: "Data & Analytics",
-    skills: ["SQL", "Product Analytics", "A/B Testing", "KPI Definition"]
-  },
-  {
-    icon: Code,
-    category: "Technical Skills",
-    skills: ["API Integration", "AI/ML Concepts", "Technical Documentation", "Agile/Scrum"]
-  },
-  {
-    icon: Lightbulb,
-    category: "Innovation",
-    skills: ["Ideation Workshops", "Rapid Prototyping", "MVP Development", "Market Validation"]
+    category: "Data & Systems",
+    description: "Finding the story in the numbers — using data to guide direction and automation to bring ideas to life."
   }
 ];
 
@@ -35,7 +24,7 @@ const highlights = [
   { icon: Award, text: "Eagle Scout" },
   { icon: Users, text: "BYU Strategy Club Leader" },
   { icon: Lightbulb, text: "Startup Weekend Winner" },
-  { icon: Target, text: "Product Certifications" }
+  { icon: Target, text: "Product Management Certification" }
 ];
 
 export const Skills = () => {
@@ -59,8 +48,8 @@ export const Skills = () => {
         </div>
 
         {/* Skill Categories */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto mb-12">
-          {skillCategories.map(({ icon: Icon, category, skills }) => (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-12">
+          {skillCategories.map(({ icon: Icon, category, description }) => (
             <Card key={category} className="border-border hover:shadow-[var(--shadow-elegant)] transition-all duration-300">
               <CardContent className="p-6">
                 <div className="flex items-center gap-3 mb-4">
@@ -69,13 +58,9 @@ export const Skills = () => {
                   </div>
                   <h3 className="font-semibold text-lg">{category}</h3>
                 </div>
-                <div className="flex flex-wrap gap-2">
-                  {skills.map((skill) => (
-                    <Badge key={skill} variant="secondary" className="text-xs">
-                      {skill}
-                    </Badge>
-                  ))}
-                </div>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {description}
+                </p>
               </CardContent>
             </Card>
           ))}
