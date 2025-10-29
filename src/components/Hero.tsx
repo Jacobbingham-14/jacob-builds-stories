@@ -51,8 +51,10 @@ export const Hero = () => {
               View Projects
               <ArrowRight className="ml-2" />
             </Button>
-            <Button size="lg" variant="outline">
-              Download Resume
+            <Button size="lg" variant="outline" asChild>
+              <a href="/Jacob-Bingham-Resume.pdf" download>
+                Download Resume
+              </a>
             </Button>
           </div>
 

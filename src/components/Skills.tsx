@@ -41,9 +41,11 @@ export const Skills = () => {
           <p className="text-lg text-muted-foreground mb-8">
             A blend of strategic thinking, technical understanding, and creative problem-solving.
           </p>
-          <Button size="lg" variant="hero">
-            <Download className="mr-2" />
-            Download Full Resume
+          <Button size="lg" variant="hero" asChild>
+            <a href="/Jacob-Bingham-Resume.pdf" download>
+              <Download className="mr-2" />
+              Download Full Resume
+            </a>
           </Button>
         </div>
 
