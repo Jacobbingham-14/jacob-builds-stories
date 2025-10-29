@@ -26,14 +26,14 @@ export const About = () => {
             <div>
               <h3 className="text-xl font-semibold text-foreground mb-3">Who I Am</h3>
               <p>
-                I'm endlessly curious about how things work — and how to make them better. Whether it's a product, a system, or a person, I love taking something raw and shaping it into something meaningful. That's what drives me as a builder and as a human.
+                I'm endlessly curious about how things work and how to make them better. Whether it's a product, a system, or a person, I love taking something raw and shaping it into something meaningful. That curiosity is what drives me as a builder and as a human.
               </p>
             </div>
 
             <div>
               <h3 className="text-xl font-semibold text-foreground mb-3">What I'm Learning</h3>
               <p>
-                I study Strategic Management at BYU, but my real education has come from doing — starting projects, learning from failure, and chasing the spark of new ideas.
+                I study Strategic Management at BYU, where I'm learning how to think critically about markets, people, and ideas. What I've loved most is applying those lessons outside the classroom by starting projects, learning from failure, and chasing the spark of new ideas.
               </p>
             </div>
 
@@ -53,23 +53,23 @@ export const About = () => {
                 Most of my free time goes into Fever Dreams, an AI image-generation party game that turns imagination into something you can share and laugh about with friends.
               </p>
               <p className="mb-3">
-                I also love tinkering with personal side projects — like a 1-on-1 challenge app that helps friends push each other toward growth, or building custom automation agents with n8n just to see how far I can stretch an idea.
+                I also love tinkering with personal side projects like a 1-on-1 challenge app that helps friends push each other toward growth, or building custom automation agents with n8n just to see how far I can stretch an idea.
               </p>
               <p>
-                For me, building isn't a hobby — it's how I think, learn, and connect with the world.
+                For me, building isn't a hobby. It's how I think, learn, and connect with the world.
               </p>
             </div>
 
             <div>
               <h3 className="text-xl font-semibold text-foreground mb-3">What Drives Me</h3>
               <p className="mb-3">
-                I love creating things that inspire people — helping them see their potential, unlock their creativity, and feel more alive.
+                I love creating things that inspire people and help them see their potential. I want to unlock creativity in others and help them feel more alive.
               </p>
               <p className="mb-3">
-                Whether it's a product, a conversation, or a side project, I'm driven by the idea that small sparks can change how people see themselves.
+                Whether it's a product, a conversation, or a small side project, I'm drawn to the idea that small sparks can change how people see themselves.
               </p>
               <p className="text-foreground font-medium">
-                I believe progress isn't just about achievement — it's about creation, connection, and the quiet moments where something new begins to take shape.
+                I believe progress isn't just about achievement. It's about creation, connection, and the quiet moments when something new begins to take shape.
               </p>
             </div>
           </div>
