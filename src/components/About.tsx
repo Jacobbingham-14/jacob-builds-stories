@@ -50,9 +50,6 @@ export const About = () => {
                 Outside of work, I spend hours every week building ideas that excite me.
               </p>
               <p className="mb-3">
-                Most of my free time goes into Fever Dreams, an AI image-generation party game that turns imagination into something you can share and laugh about with friends.
-              </p>
-              <p className="mb-3">
                 I also love tinkering with personal side projects like a 1-on-1 challenge app that helps friends push each other toward growth, or building custom automation agents with n8n just to see how far I can stretch an idea.
               </p>
               <p>
