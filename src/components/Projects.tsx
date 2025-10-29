@@ -32,7 +32,7 @@ export const Projects = () => {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            From concept to launch — exploring how I approach product challenges, validate ideas, and deliver value.
+            A glimpse into what I've been building — creative experiments and problem-solving adventures that reflect how I think and what drives me.
           </p>
         </div>
 
