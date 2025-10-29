@@ -41,7 +41,13 @@ export const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button size="lg" variant="hero">
+            <Button 
+              size="lg" 
+              variant="hero"
+              onClick={() => {
+                document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               View Projects
               <ArrowRight className="ml-2" />
             </Button>
