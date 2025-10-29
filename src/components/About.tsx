@@ -68,7 +68,7 @@ export const About = () => {
               <p className="mb-3">
                 Whether it's a product, a conversation, or a small side project, I'm drawn to the idea that small sparks can change how people see themselves.
               </p>
-              <p className="text-foreground font-medium">
+              <p className="mb-3">
                 I believe progress isn't just about achievement. It's about creation, connection, and the quiet moments when something new begins to take shape.
               </p>
             </div>
