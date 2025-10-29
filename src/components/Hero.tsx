@@ -29,7 +29,7 @@ export const Hero = () => {
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Turning ideas into{" "}
-            <span className="bg-[var(--gradient-primary)] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
               products
             </span>
             {" "}that make people feel something
