@@ -1,16 +1,25 @@
+import jacobPhoto from "@/assets/jacob-photo.jpg";
+
 export const About = () => {
   return (
     <section id="about" className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto">
-          <div className="mb-8">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Hey — I'm{" "}
-              <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-                Jacob
-              </span>
-              .
-            </h2>
+          <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
+            <img 
+              src={jacobPhoto} 
+              alt="Jacob" 
+              className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-[var(--shadow-elegant)]"
+            />
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold mb-4">
+                Hey — I'm{" "}
+                <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+                  Jacob
+                </span>
+                .
+              </h2>
+            </div>
           </div>
 
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
