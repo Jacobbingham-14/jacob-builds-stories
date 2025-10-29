@@ -65,17 +65,6 @@ export const Contact = () => {
                   </div>
                 </a>
               </div>
-
-              <div className="mt-8 pt-8 border-t border-border text-center">
-                <p className="text-lg font-medium mb-4">Ready to build something great together?</p>
-                <Button 
-                  size="lg" 
-                  variant="hero"
-                  asChild
-                >
-                  <a href="mailto:jacobbingham14@gmail.com">Send Me a Message</a>
-                </Button>
-              </div>
             </CardContent>
           </Card>
         </div>
