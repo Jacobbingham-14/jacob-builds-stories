@@ -11,7 +11,7 @@ interface ProjectCardProps {
 
 export const ProjectCard = ({ title, description, skills, image }: ProjectCardProps) => {
   return (
-    <Card className="group overflow-hidden hover:shadow-[var(--shadow-elegant)] transition-all duration-300 border-border">
+    <Card className="group overflow-hidden hover:shadow-[var(--shadow-elegant)] transition-all duration-300 border-border h-full flex flex-col">
       <div className="relative overflow-hidden bg-secondary/50 aspect-video">
         {image ? (
           <img 
@@ -29,14 +29,14 @@ export const ProjectCard = ({ title, description, skills, image }: ProjectCardPr
         </div>
       </div>
       
-      <CardContent className="p-6">
+      <CardContent className="p-6 flex-1 flex flex-col">
         <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">
           {title}
         </h3>
-        <p className="text-muted-foreground text-sm mb-4">
+        <p className="text-muted-foreground text-sm mb-4 flex-1">
           {description}
         </p>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 mt-auto">
           {skills.map((skill) => (
             <Badge 
               key={skill} 
