@@ -61,7 +61,7 @@ export const Hero = () => {
           {/* Social Links */}
           <div className="flex items-center justify-center gap-6">
             <a
-              href="https://linkedin.com/in/jacobbingham"
+              href="https://www.linkedin.com/in/jacobbingham14"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-lg bg-card hover:bg-secondary transition-all duration-300 shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-elegant)]"
